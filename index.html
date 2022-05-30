@@ -441,6 +441,19 @@
             </li>
           </ul>
         </div>
+        <div class="subscribe-wrapper">
+          <p class="subscribe-title">Подпишитесь на рассылку</p>
+          <form class="subscribe-form">
+            <input class="subscribe-input" type="email" name="email" placeholder="E-mail">
+          <button class="subscribe-button" type="submit">
+            Подписаться 
+            <svg class="subscribe-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-send"></use>
+            </svg>
+          </button>
+          </form>
+        </div>
+      </div>
       </div>
     </footer>
     <!-- модальное окно -->
@@ -451,6 +464,44 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
+        <form class="callback-form">
+          <strong class="callback-form-title">Оставьте свои данные, мы вам перезвоним</strong>
+          <label class="callback-form-lable" for="name">Имя</label>
+          <div class="callback-form-field">
+            <input class="callback-form-input" type="text" name="name" id="name">
+            <svg class="callback-form-input-icon" width="18" height="18">
+              <use href="./images/icons.svg#icon-person-callback-form"></use>
+            </svg>
+          </div>
+          <label class="callback-form-lable" for="tel">Телефон</label>
+          <div class="callback-form-field">
+            <input class="callback-form-input" type="tel" name="tel" id="tel">
+            <svg class="callback-form-input-icon" width="18" height="18">
+              <use href="./images/icons.svg#icon-phone-callback-form"></use>
+            </svg>
+          </div>
+          <label class="callback-form-lable" for="email">Почта</label>
+          <div class="callback-form-field">
+            <input class="callback-form-input" type="email" name="email" id="email">
+            <svg class="callback-form-input-icon" width="18" height="18">
+              <use href="./images/icons.svg#icon-email-callback-form"></use>
+            </svg>
+          </div>
+          <label class="callback-form-lable" for="comment">Комментарий</label>
+          <textarea class="callback-form-comment" name="comment" id="comment" placeholder="Введите текст"></textarea>
+          <label class="callback-form-checkbox">
+            <input class="callback-form-checkbox-input checkbox-hidden" type="checkbox" name="agreement">
+            <span class="callback-form-checkbox-icon-wrap">
+              <svg width="16" height="15">
+                <use href="./images/icons.svg#icon-check"></use>
+              </svg>
+            </span>
+           <span class="callback-form-agreement-text"> Соглашаюсь с рассылкой и принимаю
+            <a class="callback-form-agreement-link" href="#">Условия договора</a>
+          </span>
+          </label>
+          <button class="callback-form-button" type="submit">Отправить</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
