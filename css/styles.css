@@ -974,7 +974,6 @@ ul {
     width: 100%;
     margin-bottom: 10px;
     padding-left: 42px;
-    cursor: pointer;
 
     border: 1px solid var(--callback-form-input-border-color);
     border-radius: 4px;
