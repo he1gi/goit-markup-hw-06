@@ -1077,7 +1077,7 @@ ul {
 }
 
 .callback-form-button {
-    transform: background-color 250ms var(--timing-function);
+    transition: background-color 250ms var(--timing-function);
 
     display: inline-block;
     margin: 0 auto;
