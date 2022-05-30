@@ -494,8 +494,13 @@
             placeholder="Введите текст"
           ></textarea>
           <label class="callback-form-checkbox">
-            <input class="callback-form-checkbox-input checkbox-hidden" type="checkbox" />
-            <span class="callback-form-checkbox-icon-wrap">
+            <input
+              class="callback-form-checkbox-input checkbox-hidden"
+              tabindex="-1"
+              type="checkbox"
+              name="arragement"
+            />
+            <span tabindex="0" class="callback-form-checkbox-icon-wrap">
               <svg width="16" height="15">
                 <use href="./images/icons.svg#icon-check"></use>
               </svg>

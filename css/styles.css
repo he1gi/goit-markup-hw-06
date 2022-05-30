@@ -1053,6 +1053,10 @@ ul {
     
 }
 
+.callback-form-checkbox-icon-wrap:focus {
+    outline: 2px solid var(--accent-color);
+}
+
 .callback-form-checkbox-input:checked + .callback-form-checkbox-icon-wrap {
     border-color: var(--accent-color);
     background-color: var(--accent-color);
