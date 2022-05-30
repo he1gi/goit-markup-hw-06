@@ -1053,7 +1053,7 @@ ul {
     
 }
 
-.callback-form-checkbox-icon-wrap:focus {
+.callback-form-checkbox-icon-wrap:focus-within {
     outline: 2px solid var(--accent-color);
 }
 
