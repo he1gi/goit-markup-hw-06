@@ -1039,7 +1039,6 @@ ul {
     transition: border-color 250ms var(--timing-function), background-color 250ms var(--timing-function), fill 250ms var(--timing-function);
 
     display: inline-flex;
-    justify-content: center;
     align-items: center;
     margin-right: 7px;
 
